@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mywearos/mywearos.iml" filepath="$PROJECT_DIR$/mywearos/mywearos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/razz.iml" filepath="$PROJECT_DIR$/razz.iml" />
+    </modules>
+  </component>
+</project>
