@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDetailActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="fill_parent"
+        android:layout_height="148dp"
+
+        android:layout_marginTop="1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+
+
+        />
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:stretchColumns="0,1"
+
+
+        >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:background="#000000"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text=" Name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:layout_margin="1dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:hint="name"
+            android:textSize="20dp"
+
+
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+
+        android:background="#000000"
+
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="Module No"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+            />
+
+
+        <TextView
+
+            android:id="@+id/tvModule"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:hint="Module no"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+            />
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+
+        android:background="#000000"
+
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="Price"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+            />
+
+
+        <TextView
+
+            android:id="@+id/tvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_column="0"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:hint="Price"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+            />
+
+
+    </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="ScreenSize"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tvSize"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:hint="ScreenSize"
+                android:textSize="20dp"
+
+
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+
+            android:background="#000000"
+
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Ram"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+
+            <TextView
+
+                android:id="@+id/tvRam"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:hint="Ram"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+
+            android:background="#000000"
+
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Rom"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+
+            <TextView
+
+                android:id="@+id/tvRom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:hint="description"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+
+        </TableRow>
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text=" Operation System"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tvOs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:hint="name"
+                android:textSize="20dp"
+
+
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+
+            android:background="#000000"
+
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Front Camera"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+
+            <TextView
+
+                android:id="@+id/tvFcamera"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:hint="price"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+
+            android:background="#000000"
+
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Real Camera"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+
+            <TextView
+
+                android:id="@+id/tvBcamera"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:hint="description"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                />
+
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_gravity="right"
+        android:layout_margin="20dp"
+       android:text="Make an Order"
+        android:textSize="14sp"
+        android:textStyle="bold"
+
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
