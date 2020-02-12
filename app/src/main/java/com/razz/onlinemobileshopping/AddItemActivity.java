@@ -43,11 +43,6 @@ public class AddItemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_item);
 
-        etName = findViewById(R.id.etName);
-        etModule= findViewById(R.id.etModule);
-        etPrice= findViewById(R.id.etPrice);
-        etSize = findViewById(R.id.etSize);
-        etRam = findViewById(R.id.etRam);
         etRom = findViewById(R.id.etRom);
         etOs = findViewById(R.id.etOs);
         etFcamera = findViewById(R.id.etFcamera);
